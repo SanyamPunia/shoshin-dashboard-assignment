@@ -1,11 +1,13 @@
-import { Search, Bell, MessageSquare, Menu } from "lucide-react";
+import { Search, Bell, MessageSquare } from "lucide-react";
 import Image from "next/image";
 
 export function Header() {
   return (
     <header className="flex justify-between items-center p-6 bg-white shadow sticky top-0 z-10">
       <div className="flex items-center">
-        <h1 className="text-2xl font-bold text-gray-800 hidden lg:inline-block">Dashboard</h1>
+        <h1 className="text-2xl font-bold text-gray-800 hidden lg:inline-block">
+          Dashboard
+        </h1>
       </div>
       <div className="flex items-center space-x-4">
         <div className="relative hidden md:block">
